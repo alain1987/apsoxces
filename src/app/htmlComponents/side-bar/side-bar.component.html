@@ -1,0 +1,53 @@
+<div class="sidebar-fixed position-fixed">
+
+    <a class="logo-wrapper waves-effect">
+        <!-- <mdb-icon fas icon="shopping-cart" class="img-fluid"></mdb-icon> -->
+        <img src="../../../assets/images/Brand.png" class="img-fluid" alt="">
+    </a>
+
+    <div class="list-group list-group-flush">
+        <mat-accordion>
+            <mat-expansion-panel [expanded]=" true">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Products
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p>List1</p>
+                <p>List2</p>
+            </mat-expansion-panel>
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Other Products
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p>List3</p>
+                <p>List4</p>
+            </mat-expansion-panel>
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Other Products
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <p>List5</p>
+                    <p>List6</p>
+                    <p>List7</p>
+                </mat-expansion-panel>
+        </mat-accordion>
+        <!-- <a routerLink="shop/shopList" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+          <mdb-icon fas icon="chart-pie" class="mr-3"></mdb-icon>Dashboard
+      </a>
+      <a routerLink="profiles/profile1" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+          <mdb-icon fas icon="user" class="mr-3"></mdb-icon>Profile</a>
+      <a routerLink="tables/table1" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+          <mdb-icon fas icon="table" class="mr-3"></mdb-icon>Tables</a>
+      <a routerLink="maps/map1" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+          <mdb-icon far icon="map" class="mr-3"></mdb-icon>Maps</a>
+      <a routerLink="nonExistingPath" routerLinkActive="active" class="list-group-item list-group-item-action waves-effect">
+          <mdb-icon fas icon="exclamation" class="mr-3"></mdb-icon>404</a> -->
+
+    </div>
+
+</div>
